@@ -10,9 +10,9 @@ func main() {
 	r := gin.Default()
 
 	// 服务前端静态文件
-	r.Static("/static", "../frontend/build/static")
-	r.StaticFile("/", "../frontend/build/index.html")
-	r.StaticFile("/favicon.ico", "../frontend/build/favicon.ico")
+	r.Static("/assets", "../app/dist/assets")
+	r.StaticFile("/", "../app/dist/index.html")
+	r.StaticFile("/favicon.ico", "../app/dist/favicon.ico")
 
 	// API 路由
 	api := r.Group("/api")
@@ -24,5 +24,5 @@ func main() {
 		})
 	}
 
-	r.Run(":8080")
+	r.Run(":6789")
 }
