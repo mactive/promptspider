@@ -1,0 +1,6 @@
+import{d as n,r as o,j as e,B as s,b as i}from"./index-DpsDjS-p.js";/**
+ * @license lucide-react v0.469.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const t=n("Camera",[["path",{d:"M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z",key:"1tc9qg"}],["circle",{cx:"12",cy:"13",r:"3",key:"1vg3eu"}]]),l="/assets/react-CHdo91hT.svg";function d(){const[a,c]=o.useState(0);return e.jsxs(e.Fragment,{children:[e.jsxs("div",{children:[e.jsxs(s,{variant:"secondary",size:"lg",children:[e.jsx(t,{}),"Click me"]}),e.jsxs(s,{variant:"secondary",size:"sm",children:[e.jsx(t,{}),"Click me"]}),e.jsx("a",{href:"https://vite.dev",target:"_blank",children:e.jsx("img",{src:l,className:"logo",alt:"Vite logo"})})]}),e.jsx("h1",{children:"Vite + React"}),e.jsxs("div",{className:"card",children:[e.jsxs("button",{onClick:()=>c(r=>r+1),children:["count is ",a]}),e.jsxs("p",{children:["Edit ",e.jsx("code",{children:"src/App.tsx"})," and save to test HMR"]})]}),e.jsx("p",{className:"read-the-docs",children:"Click on the Vite and React logos to learn more"})]})}const x=i("/")({component:d});export{x as Route};
